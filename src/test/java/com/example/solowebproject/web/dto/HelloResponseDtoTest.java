@@ -1,7 +1,6 @@
 package com.example.solowebproject.web.dto;
 
 import org.junit.jupiter.api.Test;
-import org.assertj.core.api.Assertions.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

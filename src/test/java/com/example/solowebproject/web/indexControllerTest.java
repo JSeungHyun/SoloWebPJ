@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-class indexControllerTest {
+public class indexControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
@@ -20,6 +20,6 @@ class indexControllerTest {
         String body = this.restTemplate.getForObject("/",String.class);
 
         // then
-        Assertions.assertThat(body).contains("스프링 부트로 시작하는 웹 서비스");
+        Assertions.assertThat(body).contains("스프링부트로 시작하는 웹 서비스");
     }
 }

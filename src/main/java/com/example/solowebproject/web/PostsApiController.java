@@ -1,9 +1,9 @@
 package com.example.solowebproject.web;
 
-import com.example.solowebproject.service.posts.PostsService;
 import com.example.solowebproject.web.dto.PostsResponseDto;
 import com.example.solowebproject.web.dto.PostsSaveRequestDto;
 import com.example.solowebproject.web.dto.PostsUpdateRequestDto;
+import com.example.solowebproject.service.PostsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

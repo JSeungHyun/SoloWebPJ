@@ -1,4 +1,4 @@
-package com.example.solowebproject.service.posts;
+package com.example.solowebproject.service;
 
 import com.example.solowebproject.domain.posts.Posts;
 import com.example.solowebproject.domain.posts.PostsRepository;
